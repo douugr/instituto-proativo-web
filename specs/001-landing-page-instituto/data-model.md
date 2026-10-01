@@ -54,10 +54,9 @@ Elemento repetido dentro de uma seção (pilar, frente de atuação, garantia, d
 |-------|-------|------|
 | 2015 | início do projeto | atual |
 | +10 anos | de atuação | atual |
-| 60 | crianças e adolescentes atendidos hoje | atual |
+| 100+ | crianças e adolescentes atendidos hoje | atual |
 | 6 a 17 | anos — faixa etária atendida | atual |
 | 3x | aulas de jiu-jitsu por semana | atual |
-| 100 | crianças por ano | meta |
 | +100 | famílias impactadas diretamente | meta |
 | 300 | aulas por ano | meta |
 | 75% | de frequência | meta |

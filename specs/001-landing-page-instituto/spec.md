@@ -20,7 +20,7 @@ A landing page é o primeiro ponto de contato digital do instituto: deve contar 
 
 ### Session 2026-10-01
 
-- Q: Qual número de alunos atendidos hoje deve aparecer na página (60, 42 ou "dezenas")? → A: 60 crianças e adolescentes atendidos.
+- Q: Qual número de alunos atendidos hoje deve aparecer na página (60, 42 ou "dezenas")? → A: 60 crianças e adolescentes atendidos. **Atualizado em 2026-10-01 pelo usuário: "100+" crianças e adolescentes atendidos hoje** (a meta "100 crianças por ano" deixa de ser exibida, já que foi alcançada).
 - Q: Qual número de WhatsApp deve ser usado no botão de contato fixo e na chamada principal? → A: (14) 99681-6005.
 - Q: Como medir visitas e contatos vindos do site? → A: Estatística simples sem cookies (visitas e cliques nos botões de contato), sem aviso de cookies.
 - Q: A página deve tratar de Lei de Incentivo ao Esporte / FIA? → A: Apenas menção breve em "Como fazer parte" (incentivo fiscal em processo de validação; fale conosco), sem detalhes nem exemplos de cálculo.
@@ -73,7 +73,7 @@ Um empresário, profissional ou cidadão quer saber de que formas pode contribui
 
 1. **Given** um visitante na seção "Como fazer parte", **When** lê o conteúdo, **Then** vê formas de apoio: conhecimento/voluntariado profissional, estrutura, investimento na manutenção/expansão, divulgação e conexões.
 2. **Given** um visitante na seção de destinação de recursos, **When** lê o conteúdo, **Then** vê os destinos prioritários (estruturação do novo espaço; água, energia, internet e limpeza; custos fixos; materiais esportivos; apoio administrativo; atividades de integração e formação) e as etapas de crescimento (1. Estruturar o novo espaço; 2. Garantir funcionamento contínuo; 3. Ampliar equipe e dedicação).
-3. **Given** um visitante na seção de impacto, **When** lê os indicadores, **Then** vê números-chave do projeto e as metas (ex.: chegar a 100 crianças por ano; visão de até 200 alunos em 5 anos) e os indicadores monitorados (frequência escolar, evolução comportamental, participação familiar, progressão técnica).
+3. **Given** um visitante na seção de impacto, **When** lê os indicadores, **Then** vê números-chave do projeto e as metas (ex.: 100+ crianças atendidas hoje; visão de até 200 alunos em 5 anos) e os indicadores monitorados (frequência escolar, evolução comportamental, participação familiar, progressão técnica).
 4. **Given** qualquer visitante, **When** percorre toda a página, **Then** não encontra valores nem descrição das cotas Bronze/Prata/Ouro/Master.
 
 ---
@@ -116,7 +116,7 @@ Uma empresa quer saber, de forma geral, que visibilidade e retorno institucional
 - **Imagem não carregada**: deve existir texto alternativo descritivo; a mensagem da seção não pode depender exclusivamente da imagem.
 - **Dispositivo sem WhatsApp instalado** (ex.: desktop): o link de WhatsApp deve continuar funcional (versão web) e o telefone/e-mail devem estar visíveis como alternativa.
 - **Visitante com deficiência visual ou navegação por teclado**: toda a página e as chamadas para ação devem ser navegáveis e compreensíveis por tecnologias assistivas.
-- **Números divergentes entre materiais** (ex.: 60 vs. 42 alunos atendidos): a página exibe um único conjunto consistente de números (60 atendidos hoje) — ver FR-012.
+- **Números divergentes entre materiais** (ex.: 60 vs. 42 alunos atendidos): a página exibe um único conjunto consistente de números (100+ atendidos hoje) — ver FR-012.
 - **Visitante procurando valores de patrocínio**: como as cotas não estão na página, a seção de apoio deve orientá-lo a entrar em contato para receber a proposta.
 
 ## Requirements *(mandatory)*
@@ -139,7 +139,7 @@ Uma empresa quer saber, de forma geral, que visibilidade e retorno institucional
 - **FR-009**: **Metodologia / Pilares** — MUST apresentar os quatro pilares formativos (Disciplina e respeito; Foco, persistência e superação; Trabalho em equipe; Autocontrole emocional) e os elementos da metodologia (aulas 3x por semana por faixa etária/nível, acompanhamento de frequência e evolução, turmas atípicas em grupos menores, integração familiar).
 - **FR-010**: **Formação técnica e projeção esportiva** — MUST mencionar o sistema de graduação estruturado e federado, participação em campeonatos e eventos e identificação de talentos ("O projeto não apenas inclui. Ele prepara e projeta.").
 - **FR-011**: **Equipe** — MUST apresentar Ismaile Santos (idealizador), Fernando Santim, César Evaristo e Orlando Weber (instrutores), com papel resumido de cada um, e espaço para foto.
-- **FR-012**: **Impacto e metas** — MUST exibir números-chave e metas: 2015 (início), ~10 anos de atuação, faixa etária 6–17, 60 crianças e adolescentes atendidos hoje, meta de 100 crianças/ano, +100 famílias impactadas, 300 aulas/ano, 75% de frequência, visão de até 200 alunos em 5 anos; além dos indicadores monitorados (frequência escolar, evolução comportamental, participação familiar, progressão técnica) e dos benefícios por eixo (educacional, familiar/social, emocional/cidadão).
+- **FR-012**: **Impacto e metas** — MUST exibir números-chave e metas: 2015 (início), ~10 anos de atuação, faixa etária 6–17, 100+ crianças e adolescentes atendidos hoje, +100 famílias impactadas, 300 aulas/ano, 75% de frequência, visão de até 200 alunos em 5 anos; além dos indicadores monitorados (frequência escolar, evolução comportamental, participação familiar, progressão técnica) e dos benefícios por eixo (educacional, familiar/social, emocional/cidadão).
 - **FR-013**: **Segurança, governança e rede de apoio** — MUST apresentar as garantias de segurança e conformidade, a estrutura institucional (conselho fiscal, diretoria voluntária, contabilidade permanente, estatuto com abrangência nacional, núcleo piloto em Ourinhos/SP) e a rede de apoio/parcerias (psicologia, saúde, educação, assistência, Unifio, escolas, CRAS, conselho tutelar).
 - **FR-014**: **Como fazer parte** — MUST apresentar as formas de apoio (conhecimento, estrutura, experiência profissional, investimento, divulgação, conexões, voluntariado), a mensagem de que é possível apoiar com qualquer valor como pessoa física ou jurídica, uma menção breve de que o apoio via incentivo fiscal (Lei de Incentivo ao Esporte / FIA) está em processo de validação e pode ser conversado com o instituto — sem percentuais, exemplos de cálculo ou promessas de abatimento — e um CTA para contato.
 - **FR-015**: **Para onde vão os recursos** — MUST listar os destinos prioritários dos recursos e as três etapas de crescimento do projeto.
@@ -184,7 +184,7 @@ Uma empresa quer saber, de forma geral, que visibilidade e retorno institucional
 - **Público**: famílias da região de Ourinhos/SP, empresários, profissionais liberais, educadores, potenciais voluntários e parceiros institucionais; o acesso será majoritariamente via celular (QR code dos impressos e Instagram).
 - **Idioma**: apenas português do Brasil nesta versão.
 - **Contato sem formulário**: a conversão será feita por links diretos (WhatsApp, telefone, e-mail, Instagram); não haverá formulário nem armazenamento de dados pessoais de visitantes nesta versão (apenas estatísticas agregadas sem cookies — FR-024), evitando necessidade de tratamento de dados pessoais (LGPD).
-- **Números de impacto**: confirmado o uso de "60 crianças e adolescentes atendidos" (ver Clarifications); os demais números seguem os materiais fornecidos e devem ser fáceis de atualizar.
+- **Números de impacto**: confirmado o uso de "100+ crianças e adolescentes atendidos" (ver Clarifications); os demais números seguem os materiais fornecidos e devem ser fáceis de atualizar.
 - **Imagens**: serão usadas as fotos e o brasão já existentes nos materiais fornecidos; fotos adicionais da equipe e das aulas deverão ser fornecidas pelo instituto em boa resolução. Confirmado pelo instituto (ver Clarifications) que todas as fotos de crianças dos materiais atuais possuem autorização de uso de imagem dos responsáveis e podem ser usadas livremente; a responsabilidade por essas autorizações é do instituto.
 - **Doação online**: não haverá processamento de pagamentos ou doações na página nesta versão; o apoio financeiro é tratado via contato direto.
 - **Lei de Incentivo ao Esporte / FIA**: como a validação na LIE ainda está em andamento, a página faz apenas uma menção breve (FR-014); a explicação detalhada de incentivos fiscais fica fora desta versão, junto com as cotas.

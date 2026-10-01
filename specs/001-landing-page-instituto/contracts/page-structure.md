@@ -17,7 +17,7 @@ Contrato de UI do `site/index.html`: ordem das seções, âncoras (estáveis —
 | # | `id` | Menu | Título (h1/h2) | Conteúdo obrigatório | Req. |
 |---|------|------|----------------|----------------------|------|
 | 1 | `inicio` | — | h1: "Existem crianças que só precisam de uma oportunidade" | Brasão; complemento "— e pessoas dispostas a caminhar com elas"; subtítulo "Esporte educacional como ferramenta de transformação social"; CTA primário "Quero fazer parte" (WhatsApp principal); CTA secundário "Conheça o projeto" (`#quem-somos`) | FR-003, FR-004 |
-| 2 | `quem-somos` | Quem somos | Quem somos | OSC em Ourinhos/SP; missão; público (6–17 anos, rede pública, vulnerabilidade, atípicos; encaminhados por escolas, CRAS e conselho tutelar); Projeto Jiu-Jitsu Para Todos; destaques numéricos (2015, 60 atendidos, 6–17) | FR-005 |
+| 2 | `quem-somos` | Quem somos | Quem somos | OSC em Ourinhos/SP; missão; público (6–17 anos, rede pública, vulnerabilidade, atípicos; encaminhados por escolas, CRAS e conselho tutelar); Projeto Jiu-Jitsu Para Todos; destaques numéricos (2015, 100+ atendidos, 6–17) | FR-005 |
 | 3 | `historia` | Nossa história | Tudo começou com um tatame | 2015, 8 alunos, Prof. Humberto Betão (in memoriam), Sensei Ismaile Santos; pandemia; TEA desde 2021, depois TDAH e não verbais; linhagem Eddy North Fighter → Reylson Gracie / Joe Moreira | FR-006 |
 | 4 | `desafio` | — | O desafio social | 4 desafios (acesso, violência/ociosidade, autoestima/disciplina, evasão escolar) | FR-007 |
 | 5 | `o-que-fazemos` | O que fazemos | Da quadra à sala de aula | 4 frentes: Esporte, Educação, Desenvolvimento humano, Família e escola | FR-008 |
