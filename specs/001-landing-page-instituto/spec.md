@@ -16,6 +16,16 @@ A landing page é o primeiro ponto de contato digital do instituto: deve contar 
 
 **Fontes de conteúdo**: panfleto A5 "Existem crianças que só precisam de uma oportunidade", apresentação institucional (reunião de alinhamento estratégico), apresentação comercial para empresas, infográfico "Para onde vão os recursos / Contrapartidas" e o brasão oficial do instituto.
 
+## Clarifications
+
+### Session 2026-10-01
+
+- Q: Qual número de alunos atendidos hoje deve aparecer na página (60, 42 ou "dezenas")? → A: 60 crianças e adolescentes atendidos.
+- Q: Qual número de WhatsApp deve ser usado no botão de contato fixo e na chamada principal? → A: (14) 99681-6005.
+- Q: Como medir visitas e contatos vindos do site? → A: Estatística simples sem cookies (visitas e cliques nos botões de contato), sem aviso de cookies.
+- Q: A página deve tratar de Lei de Incentivo ao Esporte / FIA? → A: Apenas menção breve em "Como fazer parte" (incentivo fiscal em processo de validação; fale conosco), sem detalhes nem exemplos de cálculo.
+- Q: Como tratar fotos de crianças na página? → A: Usar livremente as fotos dos materiais atuais, considerando que todas já possuem autorização de uso de imagem dos responsáveis.
+
 ## User Scenarios & Testing *(mandatory)*
 
 ### User Story 1 - Conhecer o instituto e sua causa (Priority: P1)
@@ -46,7 +56,7 @@ Um visitante que se interessou (potencial apoiador, voluntário, família ou par
 
 1. **Given** um visitante em qualquer seção, **When** aciona a chamada principal ("Fale conosco" / "Quero fazer parte"), **Then** é levado à seção de contato ou diretamente a um canal de conversa.
 2. **Given** um visitante em um celular, **When** toca no número de WhatsApp/telefone, **Then** o aplicativo correspondente é aberto com o número preenchido.
-3. **Given** um visitante na seção de contato, **When** visualiza as informações, **Then** vê telefones (Orlando e Ismaile), e-mail, perfis do Instagram (@institutoproativo, @projetojjparatodos, @eddynorthfight.ourinhos) e endereço do espaço atual.
+3. **Given** um visitante na seção de contato, **When** visualiza as informações, **Then** vê o WhatsApp principal (14) 99681-6005 em destaque, os telefones de Orlando e Ismaile, e-mail, perfis do Instagram (@institutoproativo, @projetojjparatodos, @eddynorthfight.ourinhos) e endereço do espaço atual.
 
 ---
 
@@ -105,7 +115,7 @@ Uma empresa quer saber, de forma geral, que visibilidade e retorno institucional
 - **Imagem não carregada**: deve existir texto alternativo descritivo; a mensagem da seção não pode depender exclusivamente da imagem.
 - **Dispositivo sem WhatsApp instalado** (ex.: desktop): o link de WhatsApp deve continuar funcional (versão web) e o telefone/e-mail devem estar visíveis como alternativa.
 - **Visitante com deficiência visual ou navegação por teclado**: toda a página e as chamadas para ação devem ser navegáveis e compreensíveis por tecnologias assistivas.
-- **Números divergentes entre materiais** (ex.: 60 vs. 42 alunos atendidos): a página deve exibir um único conjunto consistente de números — ver FR-012.
+- **Números divergentes entre materiais** (ex.: 60 vs. 42 alunos atendidos): a página exibe um único conjunto consistente de números (60 atendidos hoje) — ver FR-012.
 - **Visitante procurando valores de patrocínio**: como as cotas não estão na página, a seção de apoio deve orientá-lo a entrar em contato para receber a proposta.
 
 ## Requirements *(mandatory)*
@@ -116,7 +126,7 @@ Uma empresa quer saber, de forma geral, que visibilidade e retorno institucional
 
 - **FR-001**: A página MUST ser uma página única (one-page), em português do Brasil, com seções acessíveis por navegação interna (menu com âncoras).
 - **FR-002**: A página MUST exibir o brasão oficial do Instituto Pró-Ativo e seguir a identidade visual dos materiais (azul-marinho, dourado/amarelo e branco, com as cores do coração-quebra-cabeça como acento).
-- **FR-003**: A página MUST manter uma chamada para ação principal visível na primeira dobra e um acesso ao contato disponível durante a rolagem (ex.: menu fixo ou botão flutuante de WhatsApp).
+- **FR-003**: A página MUST manter uma chamada para ação principal visível na primeira dobra e um acesso ao contato disponível durante a rolagem (ex.: menu fixo ou botão flutuante de WhatsApp). O botão fixo e a chamada principal MUST levar ao WhatsApp principal do instituto: **(14) 99681-6005**.
 
 **Seções de conteúdo** (ordem sugerida)
 
@@ -128,13 +138,13 @@ Uma empresa quer saber, de forma geral, que visibilidade e retorno institucional
 - **FR-009**: **Metodologia / Pilares** — MUST apresentar os quatro pilares formativos (Disciplina e respeito; Foco, persistência e superação; Trabalho em equipe; Autocontrole emocional) e os elementos da metodologia (aulas 3x por semana por faixa etária/nível, acompanhamento de frequência e evolução, turmas atípicas em grupos menores, integração familiar).
 - **FR-010**: **Formação técnica e projeção esportiva** — MUST mencionar o sistema de graduação estruturado e federado, participação em campeonatos e eventos e identificação de talentos ("O projeto não apenas inclui. Ele prepara e projeta.").
 - **FR-011**: **Equipe** — MUST apresentar Ismaile Santos (idealizador), Fernando Santim, César Evaristo e Orlando Weber (instrutores), com papel resumido de cada um, e espaço para foto.
-- **FR-012**: **Impacto e metas** — MUST exibir números-chave e metas: 2015 (início), ~10 anos de atuação, faixa etária 6–17, alunos atendidos hoje (valor a ser confirmado — ver Assumptions), meta de 100 crianças/ano, +100 famílias impactadas, 300 aulas/ano, 75% de frequência, visão de até 200 alunos em 5 anos; além dos indicadores monitorados (frequência escolar, evolução comportamental, participação familiar, progressão técnica) e dos benefícios por eixo (educacional, familiar/social, emocional/cidadão).
+- **FR-012**: **Impacto e metas** — MUST exibir números-chave e metas: 2015 (início), ~10 anos de atuação, faixa etária 6–17, 60 crianças e adolescentes atendidos hoje, meta de 100 crianças/ano, +100 famílias impactadas, 300 aulas/ano, 75% de frequência, visão de até 200 alunos em 5 anos; além dos indicadores monitorados (frequência escolar, evolução comportamental, participação familiar, progressão técnica) e dos benefícios por eixo (educacional, familiar/social, emocional/cidadão).
 - **FR-013**: **Segurança, governança e rede de apoio** — MUST apresentar as garantias de segurança e conformidade, a estrutura institucional (conselho fiscal, diretoria voluntária, contabilidade permanente, estatuto com abrangência nacional, núcleo piloto em Ourinhos/SP) e a rede de apoio/parcerias (psicologia, saúde, educação, assistência, Unifio, escolas, CRAS, conselho tutelar).
-- **FR-014**: **Como fazer parte** — MUST apresentar as formas de apoio (conhecimento, estrutura, experiência profissional, investimento, divulgação, conexões, voluntariado), a mensagem de que é possível apoiar com qualquer valor como pessoa física ou jurídica, e um CTA para contato.
+- **FR-014**: **Como fazer parte** — MUST apresentar as formas de apoio (conhecimento, estrutura, experiência profissional, investimento, divulgação, conexões, voluntariado), a mensagem de que é possível apoiar com qualquer valor como pessoa física ou jurídica, uma menção breve de que o apoio via incentivo fiscal (Lei de Incentivo ao Esporte / FIA) está em processo de validação e pode ser conversado com o instituto — sem percentuais, exemplos de cálculo ou promessas de abatimento — e um CTA para contato.
 - **FR-015**: **Para onde vão os recursos** — MUST listar os destinos prioritários dos recursos e as três etapas de crescimento do projeto.
 - **FR-016**: **Contrapartidas** — MUST listar as contrapartidas gerais (divulgação em materiais institucionais, redes sociais, banners e eventos, ações presenciais, relatórios de impacto social), sem valores nem níveis de cota.
 - **FR-017**: **Citação/fechamento emocional** — SHOULD incluir uma frase de impacto (ex.: "Formamos pessoas. Antes de formar atletas." e/ou "Investir no Pró-Ativo é investir em transformação, disciplina & cidadania.").
-- **FR-018**: **Contato e rodapé** — MUST exibir telefones (14) 98108-6430 (Orlando) e (14) 98827-4004 (Ismaile) com links para WhatsApp/ligação, e-mail contato.institutoproativo@gmail.com (link de e-mail), Instagram @institutoproativo, @projetojjparatodos e @eddynorthfight.ourinhos (links externos), endereço R. Celestino Lopes Bahia, 1051 – Vila São Luiz, Ourinhos/SP, CEP 19911-205 (espaço cedido CRAS-1), e o nome do instituto com ano corrente no rodapé.
+- **FR-018**: **Contato e rodapé** — MUST exibir o WhatsApp principal (14) 99681-6005 em destaque e os telefones (14) 98108-6430 (Orlando) e (14) 98827-4004 (Ismaile), todos com links para WhatsApp/ligação, e-mail contato.institutoproativo@gmail.com (link de e-mail), Instagram @institutoproativo, @projetojjparatodos e @eddynorthfight.ourinhos (links externos), endereço R. Celestino Lopes Bahia, 1051 – Vila São Luiz, Ourinhos/SP, CEP 19911-205 (espaço cedido CRAS-1), e o nome do instituto com ano corrente no rodapé.
 
 **Escopo excluído**
 
@@ -146,6 +156,7 @@ Uma empresa quer saber, de forma geral, que visibilidade e retorno institucional
 - **FR-021**: A página MUST atender às diretrizes de acessibilidade WCAG 2.1 nível AA (contraste, textos alternativos, navegação por teclado, hierarquia de títulos).
 - **FR-022**: A página MUST ter título, descrição e imagem de pré-visualização adequados para compartilhamento em redes sociais e WhatsApp, e ser indexável por buscadores.
 - **FR-023**: Links externos (Instagram, WhatsApp) MUST abrir sem que o visitante perca a página do instituto.
+- **FR-024**: A página MUST registrar estatísticas agregadas de visitas e de cliques em cada canal de contato (WhatsApp, telefone, e-mail, Instagram) sem usar cookies nem coletar dados pessoais identificáveis, dispensando aviso de consentimento de cookies.
 
 ### Key Entities
 
@@ -165,16 +176,16 @@ Uma empresa quer saber, de forma geral, que visibilidade e retorno institucional
 - **SC-005**: A página passa em uma verificação automatizada de acessibilidade sem erros críticos e todas as imagens informativas possuem texto alternativo.
 - **SC-006**: 100% dos links de contato (WhatsApp, telefone, e-mail, Instagram) funcionam corretamente em celular e desktop.
 - **SC-007**: Nenhuma menção a valores ou níveis de cotas de patrocínio aparece na página.
-- **SC-008**: Após a publicação, o instituto passa a receber contatos identificados como vindos do site (meta qualitativa a acompanhar pelos responsáveis).
+- **SC-008**: Após a publicação, o instituto consegue consultar, por mês, o número de visitas à página e de cliques em cada canal de contato.
 
 ## Assumptions
 
 - **Público**: famílias da região de Ourinhos/SP, empresários, profissionais liberais, educadores, potenciais voluntários e parceiros institucionais; o acesso será majoritariamente via celular (QR code dos impressos e Instagram).
 - **Idioma**: apenas português do Brasil nesta versão.
-- **Contato sem formulário**: a conversão será feita por links diretos (WhatsApp, telefone, e-mail, Instagram); não haverá formulário nem armazenamento de dados de visitantes nesta versão, evitando necessidade de tratamento de dados pessoais (LGPD).
-- **Números de impacto**: os materiais divergem quanto ao número atual de alunos (60 na apresentação institucional, 42 na comercial, "dezenas" no panfleto). Até confirmação do instituto, a página usará "60 crianças e adolescentes atendidos" (material mais recente/institucional) e as metas (100/ano; até 200 em 5 anos), com os valores facilmente ajustáveis.
-- **Imagens**: serão usadas as fotos e o brasão já existentes nos materiais fornecidos; fotos da equipe e das aulas deverão ser fornecidas pelo instituto em boa resolução. Imagens de crianças pressupõem autorização de uso de imagem dos responsáveis, já obtida pelo instituto.
+- **Contato sem formulário**: a conversão será feita por links diretos (WhatsApp, telefone, e-mail, Instagram); não haverá formulário nem armazenamento de dados pessoais de visitantes nesta versão (apenas estatísticas agregadas sem cookies — FR-024), evitando necessidade de tratamento de dados pessoais (LGPD).
+- **Números de impacto**: confirmado o uso de "60 crianças e adolescentes atendidos" (ver Clarifications); os demais números seguem os materiais fornecidos e devem ser fáceis de atualizar.
+- **Imagens**: serão usadas as fotos e o brasão já existentes nos materiais fornecidos; fotos adicionais da equipe e das aulas deverão ser fornecidas pelo instituto em boa resolução. Confirmado pelo instituto (ver Clarifications) que todas as fotos de crianças dos materiais atuais possuem autorização de uso de imagem dos responsáveis e podem ser usadas livremente; a responsabilidade por essas autorizações é do instituto.
 - **Doação online**: não haverá processamento de pagamentos ou doações na página nesta versão; o apoio financeiro é tratado via contato direto.
-- **Lei de Incentivo ao Esporte / FIA**: como a validação na LIE ainda está em andamento (horizonte de 3 anos) e o tema está ligado à proposta comercial, a explicação detalhada de incentivos fiscais fica fora desta versão, junto com as cotas.
+- **Lei de Incentivo ao Esporte / FIA**: como a validação na LIE ainda está em andamento, a página faz apenas uma menção breve (FR-014); a explicação detalhada de incentivos fiscais fica fora desta versão, junto com as cotas.
 - **Conteúdo editável**: textos e números poderão ser revisados pelo instituto antes da publicação; a página não precisa de um painel de administração nesta versão.
 - **Hospedagem e domínio**: o instituto providenciará (ou aprovará) um domínio e hospedagem; isso não bloqueia a especificação.
