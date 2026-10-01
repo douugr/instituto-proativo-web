@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://institutoproativo.com.br/sitemap.xml

@@ -1,0 +1,13 @@
+# OS / editors
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+.vscode/
+.idea/
+
+# Tooling
+node_modules/
+*.log
+.env*
+.lycheecache
