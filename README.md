@@ -34,7 +34,7 @@ npx --yes html-validate@9 "site/**/*.html"
 ```
 
 ```bash
-lychee --config lychee.toml site
+lychee --config lychee.toml --root-dir "$PWD/site" "site/**/*.html"
 ```
 
 A publicação também é bloqueada se o site mencionar as cotas de patrocínio (Bronze/Prata/Ouro/Master), que estão fora do escopo desta versão.

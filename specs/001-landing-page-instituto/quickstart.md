@@ -24,7 +24,7 @@ npx --yes html-validate@9 "site/**/*.html"
 ```
 
 ```bash
-lychee --config lychee.toml site
+lychee --config lychee.toml --root-dir "$PWD/site" "site/**/*.html"
 ```
 
 ```bash
