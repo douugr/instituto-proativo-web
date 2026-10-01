@@ -567,6 +567,104 @@ a {
   color: var(--pa-gold-dark);
 }
 
+/* Destaque do Sensei Ismaile */
+.sensei-feature {
+  background: var(--pa-navy);
+  color: #e9edf6;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 1rem 2.5rem rgba(15, 35, 80, 0.2);
+}
+
+.sensei-feature__photo {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 320px;
+  object-fit: cover;
+  object-position: center 20%;
+}
+
+.sensei-feature__body {
+  padding: clamp(1.75rem, 1rem + 3vw, 3rem);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top: 5px solid var(--pa-gold);
+}
+
+@media (min-width: 768px) {
+  .sensei-feature__body {
+    border-top: 0;
+    border-left: 5px solid var(--pa-gold);
+  }
+}
+
+.sensei-feature h3 {
+  color: var(--pa-white);
+  font-size: clamp(1.8rem, 1.4rem + 1.5vw, 2.5rem);
+  text-transform: uppercase;
+  margin-bottom: 0.35rem;
+}
+
+.sensei-feature .team-role {
+  color: var(--pa-gold);
+  margin: 0 0 0.5rem;
+}
+
+.sensei-feature__belt {
+  font-family: var(--pa-font-title);
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: var(--pa-gold);
+}
+
+/* Logo do Projeto Jiu-Jitsu Para Todos */
+.project-highlight {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 1rem 1.25rem;
+  background: var(--pa-gray);
+  border-left: 5px solid var(--pa-gold);
+  border-radius: 0 1rem 1rem 0;
+}
+
+.project-highlight img {
+  width: 120px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+@media (max-width: 399.98px) {
+  .project-highlight {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* ---------- Galeria ---------- */
+.gallery-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  object-position: center 30%;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1.5rem rgba(15, 35, 80, 0.12);
+}
+
+.gallery-item figcaption {
+  margin-top: 0.6rem;
+  font-family: var(--pa-font-title);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--pa-navy);
+}
+
 /* ---------- Confiança ---------- */
 .trust-col h3 {
   display: flex;
@@ -852,5 +950,28 @@ a {
   .hero::before,
   .quote-band::before {
     display: none;
+  }
+}
+
+/* ---------- Telas muito estreitas ---------- */
+@media (max-width: 767.98px) {
+  .sensei-feature__photo {
+    max-height: 420px;
+  }
+}
+
+@media (max-width: 399.98px) {
+  .site-header .navbar-brand {
+    font-size: 1rem;
+    gap: 0.45rem;
+  }
+
+  .site-header .navbar-brand img {
+    width: 36px;
+    height: auto;
+  }
+
+  .site-header .navbar-brand small {
+    font-size: 0.6rem;
   }
 }

@@ -40,6 +40,8 @@ Elemento repetido dentro de uma seção (pilar, frente de atuação, garantia, d
 | `description` | texto | Ismaile: Professor faixa preta 1º grau (federado CBJJP). Fernando: desenvolvimento dos treinos, viagens e parcerias. César: desenvolvimento dos treinos, projetos dentro e fora do tatame. Orlando: desenvolvimento dos treinos, marca e metodologia kids, sob supervisão do sensei responsável |
 | `photo` | `Image`, opcional | Sem foto → avatar com iniciais (não deixar espaço vazio) |
 
+Ismaile Santos tem foto (`sensei-ismaile`) e aparece em destaque, acima dos demais. Os outros três usam avatar com iniciais até haver retratos identificados.
+
 ## 4. Indicador de impacto (`ImpactMetric`)
 
 | Campo | Tipo | Regras |

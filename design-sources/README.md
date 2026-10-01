@@ -6,28 +6,38 @@ Arquivos de referência usados para montar o site. Esta pasta **não** é public
 |---------|--------|-----|
 | `brasao.webp` | Brasão enviado pelo instituto (fundo branco, 1620×1620) | Fonte de `site/assets/brand/brasao.*`, ícones, favicon e `og-image.jpg` (fundo removido) |
 | `infografico-recursos.webp` | Infográfico "Para onde vão os recursos / Contrapartidas" | Referência de conteúdo e visual das seções `#recursos` e `#contrapartidas` (cotas **não** usadas) |
+| `logo-jiu-jitsu-para-todos.webp` | Logo do Projeto Jiu-Jitsu Para Todos (Ismaile Santos Brazilian Jiu-Jitsu Team), já com fundo transparente | Fonte de `site/assets/brand/logo-jjpt-*` (seção Quem somos e rodapé) |
 
 ## Fotos em `site/assets/img/`
 
-Extraídas de `Apresentação comercial para empresas moderno cinza (2).pdf` (página e id interno do PDF). As fotos do panfleto A5 vêm com filtro esverdeado e não foram usadas. Autorização de uso de imagem: confirmada pelo instituto (spec, Clarifications 2026-10-01).
+Autorização de uso de imagem: confirmada pelo instituto (spec, Clarifications 2026-10-01). As fotos dos eventos à beira da represa são do fotógrafo **Marllos Rodrigues** (marca d'água mantida).
 
-| Nome | Origem (página-id) | Tamanhos (px) | Uso |
-|------|--------------------|---------------|-----|
-| `hero-aula` | p11-x179 | 480×360, 960×720, 1600×1200 | Fundo do hero |
-| `turma-faixas` | p11-x187 | 480×360, 640×480 | Quem somos |
-| `mestres-gracie` | p03-x61 | 480×333, 534×371 | História — linhagem |
-| `escola-tatame` | p06-x1774 | 480×360, 540×405 | História |
-| `escola-criancas` | p06-x1777 | 480×640 | O que fazemos (Educação) |
-| `treino-dupla` | p11-x188 | 480×640 | Metodologia |
-| `roda-aula` | p02-x52 | 480×480, 540×540 | Desafio social |
-| `graduacao-faixa` | p12-x1819 | 480×1066, 551×1224 | Metodologia |
-| `treino-kids` | p11-x1155 | 480×640 | O que fazemos (Esporte) |
-| `turma-medalhas` | p10-x166 | 480×216, 960×432, 1600×721 | Fundo da citação |
-| `podio-mundial` | p12-x1190 | 480×360, 512×384 | Formação técnica |
-| `podio-copa` | p02-x50 | 480×403, 540×453 | Formação técnica |
-| `rede-apoio` | p16-x1914 | 480×270, 640×360 | Rede de apoio |
-| `acao-evento` | p16-x1403 | 480×270, 960×540, 1600×900 | Contrapartidas |
-| `desfile` | p06-x1739 | 480×285, 686×407 | Como apoiar |
-| `viagem` | p10-x167 | 480×270, 800×450 | (reserva) |
+Origens:
+- **PDF** = `Apresentação comercial para empresas moderno cinza (2).pdf` (página-id interno)
+- **Drive** = pasta `drive-download-20261001T202848Z-1-001` enviada pelo instituto
+- **Joe** = pasta `Seminário Joe` (seminário e graduação com o Grande Mestre Joe Moreira, academia Team Moreira)
 
-Fotos da equipe: os materiais não identificam quem é quem nas fotos, por isso a seção Equipe usa avatares com iniciais. Substituir quando o instituto enviar retratos identificados.
+| Nome | Origem | Uso |
+|------|--------|-----|
+| `hero-aulao` | Drive `013.jpeg` | Fundo da abertura (aulão ao ar livre) |
+| `turma-lago` | Drive `005.jpeg` | Quem somos (foto da turma com professores) |
+| `escola-tatame` | PDF p06-x1774 | História |
+| `linhagem-seminario` | Joe `IMG_2952.HEIC` (recorte 4:3) | História — linhagem |
+| `roda-aula` | PDF p02-x52 | Desafio social |
+| `aula-instrutores` | Drive `012.jpeg` (recorte 4:3) | O que fazemos |
+| `escola-criancas` | PDF p06-x1777 | O que fazemos |
+| `graduacao-faixa` | PDF p12-x1819 | Metodologia |
+| `podio-mundial` | PDF p12-x1190 | Formação técnica |
+| `galeria-aerea` | Drive `SAVE_20260417_023807.jpg.jpeg` (recorte 4:3) | Galeria |
+| `galeria-aluno-azul` | Drive `IMG-20260413-WA0188.jpg.jpeg` (recorte 3:4) | Galeria |
+| `galeria-graduacao` | Joe `IMG_2839.HEIC` (recorte 3:4) | Galeria |
+| `galeria-mestres` | Drive `018.jpeg` (recorte 4:3) | Galeria |
+| `galeria-aluna` | Drive `IMG-20260413-WA0191.jpg.jpeg` (recorte 3:4) | Galeria |
+| `galeria-treino` | Drive `IMG_20260415_193447.jpg.jpeg` (recorte 4:3) | Galeria |
+| `sensei-ismaile` | Drive `004.jpeg` (sem a moldura branca, recorte 4:5) | Equipe — destaque do **Sensei Ismaile Santos** |
+| `equipe-voluntarios` | Drive `006.jpeg` | Rede de apoio |
+| `aulao-comunidade` | Drive `015.jpeg` | Como apoiar |
+| `parceiro-veiculos` | Drive `019.jpeg` | Contrapartidas |
+| `grupo-lago` | Drive `IMG-20260415-WA0013.jpg.jpeg` | Fundo da citação |
+
+Fotos da equipe: só o Sensei Ismaile foi identificado (Drive `004.jpeg`); os demais instrutores seguem com avatares de iniciais até o instituto enviar retratos identificados.

@@ -266,3 +266,12 @@ Por ser uma página única e pequena, o caminho mais simples é implementar toda
 - **Verificações locais feitas**: html-validate sem erros; grep de cotas OK; axe-core 4.10 (WCAG 2.1 AA + best practices) com **0 violações**; nenhum cookie; 0 âncoras quebradas, 0 imagens/recursos com erro, 0 erros de console; sem rolagem horizontal em 320/375/768/1280 px; menu móvel fecha ao navegar; ~700 KB no primeiro carregamento no celular.
 - **T044**: sem JavaScript, todo o conteúdo e os links continuam funcionando (o único JS próprio preenche o ano e fecha o menu; o menu móvel não abre sem JS, mas o botão "Fale conosco", o botão flutuante e todas as âncoras são links simples).
 - **Pendentes**: T043 (Lighthouse não disponível neste ambiente — rodar no Chrome DevTools), T046 (commit/PR — aguardando aprovação), T047 (depende do DNS no Registro.br) e T048 (depende da conta GoatCounter).
+
+### Atualização de fotos (2026-10-01)
+
+- O instituto enviou fotos de aulas, aulões e do seminário com o Grande Mestre Joe Moreira, além do logo do Projeto Jiu-Jitsu Para Todos. 13 fotos em resolução maior substituíram as tiradas do PDF (abertura, Quem somos, linhagem, O que fazemos, rede de apoio, Como apoiar, contrapartidas, citação). Origem de cada foto em `design-sources/README.md`.
+- **Equipe**: o Sensei Ismaile Santos ganhou um destaque com foto (Drive `004.jpeg`), faixa e biografia; os três instrutores seguem em cartões com iniciais.
+- **Galeria** nova (`#galeria`, "Momentos do projeto"), com 6 fotos e legendas, entre Metodologia e Equipe.
+- **Logo do projeto** em Quem somos e no rodapé.
+- 46 arquivos de fotos antigas que deixaram de ser usadas foram removidos de `site/assets/img/`.
+

@@ -22,7 +22,8 @@ Contrato de UI do `site/index.html`: ordem das seções, âncoras (estáveis —
 | 4 | `desafio` | — | O desafio social | 4 desafios (acesso, violência/ociosidade, autoestima/disciplina, evasão escolar) | FR-007 |
 | 5 | `o-que-fazemos` | O que fazemos | Da quadra à sala de aula | 4 frentes: Esporte, Educação, Desenvolvimento humano, Família e escola | FR-008 |
 | 6 | `metodologia` | Metodologia | Mais que esporte, uma ferramenta de transformação | 4 pilares; aulas 3x/semana por faixa etária e nível; acompanhamento; turmas atípicas menores; integração familiar; bloco "Formação técnica e projeção esportiva" ("O projeto não apenas inclui. Ele prepara e projeta.") | FR-009, FR-010 |
-| 7 | `equipe` | Equipe | Nosso time | 4 membros (data-model §3) | FR-011 |
+| 6b | `galeria` | — | Momentos do projeto | 6 fotos de aulas, aulões, eventos e graduações, cada uma com legenda curta (`<figure>` + `<figcaption>`) | — |
+| 7 | `equipe` | Equipe | Nosso time | Destaque do Sensei Ismaile Santos (foto, faixa e biografia) + 3 instrutores (data-model §3) | FR-011 |
 | 8 | `impacto` | Impacto | Impacto e metas | Indicadores (data-model §4), metas identificadas como meta, indicadores monitorados, benefícios por eixo (educacional, familiar/social, emocional/cidadão) | FR-012 |
 | 9 | `confianca` | — | Segurança, governança e rede de apoio | Garantias (federados CBJJP, toxicológico, antecedentes, primeiros socorros, formação TEA/TDAH); equipe multidisciplinar de apoio; estrutura institucional (conselho fiscal, diretoria voluntária, contabilidade, estatuto nacional, núcleo piloto Ourinhos); rede de apoio (psicologia, saúde, educação, assistência, Unifio, escolas, CRAS, conselho tutelar) | FR-013 |
 | 10 | `como-apoiar` | Como apoiar | Como você pode fazer parte | Formas de apoio; "qualquer valor, PF (CPF) ou PJ (CNPJ)"; menção breve ao incentivo fiscal em validação; CTA WhatsApp principal | FR-014 |
