@@ -72,15 +72,13 @@ Formato dos links em [contracts/contact-links.md](contracts/contact-links.md).
 | type | label | value | responsável | destaque |
 |------|-------|-------|-------------|----------|
 | whatsapp | WhatsApp do Instituto | (14) 99681-6005 | — | **principal** (botão fixo + CTA do hero) |
-| whatsapp/tel | Orlando | (14) 98108-6430 | Orlando Weber | secundário |
-| whatsapp/tel | Ismaile | (14) 98827-4004 | Ismaile Santos | secundário |
 | email | E-mail | contato.institutoproativo@gmail.com | — | secundário |
 | instagram | Instituto | @institutoproativo | — | secundário |
 | instagram | Projeto | @projetojjparatodos | — | secundário |
 | instagram | Equipe | @eddynorthfight.ourinhos | — | secundário |
 | address | Endereço | R. Celestino Lopes Bahia, 1051 – Vila São Luiz, Ourinhos/SP, CEP 19911-205 (espaço cedido CRAS-1) | — | secundário |
 
-**Regras**: exatamente um canal `principal`; todo canal tem `analyticsEvent` (ver contrato); números exibidos no formato `(DD) 9XXXX-XXXX`, links no formato internacional `55DD9XXXXXXXX`.
+**Regras**: exatamente um canal `principal`, que é o **único telefone** exibido (telefones pessoais da equipe não aparecem na página); todo canal tem `analyticsEvent` (ver contrato); números exibidos no formato `(DD) 9XXXX-XXXX`, links no formato internacional `55DD9XXXXXXXX`.
 
 ## 6. Imagem (`Image`)
 

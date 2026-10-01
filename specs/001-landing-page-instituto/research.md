@@ -89,7 +89,7 @@ Decisões técnicas que resolvem os pontos em aberto do Technical Context. Restr
 
 - **Decision**:
   - WhatsApp: `https://wa.me/5514996816005?text=<mensagem codificada>` com mensagem padrão "Olá! Conheci o Instituto Pró-Ativo pelo site e gostaria de saber mais." (funciona no celular e no WhatsApp Web no desktop).
-  - Telefone: `tel:+5514981086430` (Orlando) e `tel:+5514988274004` (Ismaile); também `wa.me` para cada um.
+  - Telefone: apenas `tel:+5514996816005` (instituto). Telefones pessoais da equipe não são publicados (Clarifications da spec).
   - E-mail: `mailto:contato.institutoproativo@gmail.com?subject=Contato%20pelo%20site`.
   - Instagram: `https://www.instagram.com/<perfil>/`.
   - Endereço: link para Google Maps (busca pelo endereço) — sem mapa embutido (evita cookies de terceiros e peso).

@@ -10,11 +10,7 @@ Formato obrigatório de cada link de contato (FR-003, FR-018, FR-023, FR-024, SC
 | WhatsApp principal (CTA do hero) | mesmo `href` | `target="_blank" rel="noopener"` | `whatsapp-hero` |
 | WhatsApp principal (seção Como apoiar) | mesmo `href` | `target="_blank" rel="noopener"` | `whatsapp-como-apoiar` |
 | WhatsApp principal (seção Contato) | mesmo `href` | `target="_blank" rel="noopener"` | `whatsapp-contato` |
-| WhatsApp Orlando | `https://wa.me/5514981086430` | `target="_blank" rel="noopener"` | `whatsapp-orlando` |
-| WhatsApp Ismaile | `https://wa.me/5514988274004` | `target="_blank" rel="noopener"` | `whatsapp-ismaile` |
 | Telefone principal | `tel:+5514996816005` | — | `tel-principal` |
-| Telefone Orlando | `tel:+5514981086430` | — | `tel-orlando` |
-| Telefone Ismaile | `tel:+5514988274004` | — | `tel-ismaile` |
 | E-mail | `mailto:contato.institutoproativo@gmail.com?subject=Contato%20pelo%20site` | — | `email` |
 | Instagram Instituto | `https://www.instagram.com/institutoproativo/` | `target="_blank" rel="noopener"` | `instagram-instituto` |
 | Instagram Projeto | `https://www.instagram.com/projetojjparatodos/` | `target="_blank" rel="noopener"` | `instagram-projeto` |
@@ -24,6 +20,7 @@ Formato obrigatório de cada link de contato (FR-003, FR-018, FR-023, FR-024, SC
 
 ## Regras
 
+- O único telefone exibido é o do instituto, (14) 99681-6005. Telefones pessoais de membros da equipe **não** aparecem na página.
 - Texto visível dos números no formato nacional: `(14) 99681-6005`.
 - Links externos que abrem nova aba informam isso a leitores de tela (ícone com texto oculto "abre em nova aba" ou `aria-label`).
 - O botão flutuante: canto inferior direito, ≥ 56×56 px de área de toque, não cobre o rodapé nem o conteúdo final (margem inferior no `footer`), oculto na impressão.

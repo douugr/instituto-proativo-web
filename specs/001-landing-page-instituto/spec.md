@@ -25,6 +25,7 @@ A landing page é o primeiro ponto de contato digital do instituto: deve contar 
 - Q: Como medir visitas e contatos vindos do site? → A: Estatística simples sem cookies (visitas e cliques nos botões de contato), sem aviso de cookies.
 - Q: A página deve tratar de Lei de Incentivo ao Esporte / FIA? → A: Apenas menção breve em "Como fazer parte" (incentivo fiscal em processo de validação; fale conosco), sem detalhes nem exemplos de cálculo.
 - Q: Como tratar fotos de crianças na página? → A: Usar livremente as fotos dos materiais atuais, considerando que todas já possuem autorização de uso de imagem dos responsáveis.
+- Q: Os telefones de Orlando e Ismaile devem aparecer na página? → A: Não. São telefones pessoais; o atendimento é feito apenas pelo telefone/WhatsApp do instituto, (14) 99681-6005.
 
 ## User Scenarios & Testing *(mandatory)*
 
@@ -56,7 +57,7 @@ Um visitante que se interessou (potencial apoiador, voluntário, família ou par
 
 1. **Given** um visitante em qualquer seção, **When** aciona a chamada principal ("Fale conosco" / "Quero fazer parte"), **Then** é levado à seção de contato ou diretamente a um canal de conversa.
 2. **Given** um visitante em um celular, **When** toca no número de WhatsApp/telefone, **Then** o aplicativo correspondente é aberto com o número preenchido.
-3. **Given** um visitante na seção de contato, **When** visualiza as informações, **Then** vê o WhatsApp principal (14) 99681-6005 em destaque, os telefones de Orlando e Ismaile, e-mail, perfis do Instagram (@institutoproativo, @projetojjparatodos, @eddynorthfight.ourinhos) e endereço do espaço atual.
+3. **Given** um visitante na seção de contato, **When** visualiza as informações, **Then** vê o WhatsApp do instituto (14) 99681-6005 em destaque (único telefone de atendimento), e-mail, perfis do Instagram (@institutoproativo, @projetojjparatodos, @eddynorthfight.ourinhos) e endereço do espaço atual.
 
 ---
 
@@ -144,7 +145,7 @@ Uma empresa quer saber, de forma geral, que visibilidade e retorno institucional
 - **FR-015**: **Para onde vão os recursos** — MUST listar os destinos prioritários dos recursos e as três etapas de crescimento do projeto.
 - **FR-016**: **Contrapartidas** — MUST listar as contrapartidas gerais (divulgação em materiais institucionais, redes sociais, banners e eventos, ações presenciais, relatórios de impacto social), sem valores nem níveis de cota.
 - **FR-017**: **Citação/fechamento emocional** — SHOULD incluir uma frase de impacto (ex.: "Formamos pessoas. Antes de formar atletas." e/ou "Investir no Pró-Ativo é investir em transformação, disciplina & cidadania.").
-- **FR-018**: **Contato e rodapé** — MUST exibir o WhatsApp principal (14) 99681-6005 em destaque e os telefones (14) 98108-6430 (Orlando) e (14) 98827-4004 (Ismaile), todos com links para WhatsApp/ligação, e-mail contato.institutoproativo@gmail.com (link de e-mail), Instagram @institutoproativo, @projetojjparatodos e @eddynorthfight.ourinhos (links externos), endereço R. Celestino Lopes Bahia, 1051 – Vila São Luiz, Ourinhos/SP, CEP 19911-205 (espaço cedido CRAS-1), e o nome do instituto com ano corrente no rodapé.
+- **FR-018**: **Contato e rodapé** — MUST exibir o WhatsApp do instituto (14) 99681-6005 em destaque como **único** telefone de atendimento (com link para WhatsApp e ligação); telefones pessoais de membros da equipe MUST NOT ser exibidos. Também MUST exibir e-mail contato.institutoproativo@gmail.com (link de e-mail), Instagram @institutoproativo, @projetojjparatodos e @eddynorthfight.ourinhos (links externos), endereço R. Celestino Lopes Bahia, 1051 – Vila São Luiz, Ourinhos/SP, CEP 19911-205 (espaço cedido CRAS-1), e o nome do instituto com ano corrente no rodapé.
 
 **Escopo excluído**
 
