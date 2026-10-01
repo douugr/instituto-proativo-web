@@ -1,0 +1,18 @@
+# Verificação de links do site (rodada no CI antes do deploy)
+timeout = 20
+max_retries = 2
+accept = ["200..=299", "429"]
+
+exclude = [
+  '^mailto:',
+  '^tel:',
+  'wa\.me',
+  'instagram\.com',
+  'gc\.zgo\.at',
+  # O próprio domínio só responde após o primeiro deploy e a propagação do DNS
+  'institutoproativo\.com\.br',
+  # Google Fonts/Maps respondem de forma inconsistente a robôs
+  'fonts\.googleapis\.com',
+  'fonts\.gstatic\.com',
+  'google\.com/maps',
+]
