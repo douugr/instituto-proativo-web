@@ -157,7 +157,7 @@ description: "Task list for Landing Page do Instituto Pró-Ativo"
 - [X] T045 [P] Escrever `README.md` na raiz: o que é o projeto, estrutura (`site/`, `specs/`), como rodar localmente, como validar, como publicar (PR → merge na `main`), como atualizar números/contatos/fotos e link para [quickstart.md](quickstart.md) para configuração de DNS/Pages
 - [ ] T046 Remover `.gitkeep` desnecessários, rodar as validações finais do [quickstart.md](quickstart.md) §3, commitar e abrir Pull Request de `001-landing-page-instituto` para `main` com resumo das seções e checklist do §5
 - [ ] T047 Após o merge e o deploy: executar o roteiro de aceite completo do [quickstart.md](quickstart.md) §5 no domínio (itens 1–14; item 1 depende do DNS no Registro.br e do Enforce HTTPS feitos pelo usuário)
-- [ ] T048 Quando o usuário criar a conta GoatCounter (`institutoproativo`): descomentar o script em `site/index.html`, publicar e validar o item 14 do [quickstart.md](quickstart.md) §5
+- [X] T048 Quando o usuário criar a conta GoatCounter (`institutoproativo`): descomentar o script em `site/index.html`, publicar e validar o item 14 do [quickstart.md](quickstart.md) §5
 
 ---
 

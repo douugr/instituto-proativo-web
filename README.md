@@ -52,4 +52,4 @@ Configuração inicial do GitHub Pages, do domínio no Registro.br e do HTTPS: v
 - **Números de impacto**: blocos marcados com `<!-- NÚMEROS DE IMPACTO -->` (aparecem em *Quem somos* e em *Impacto*); a fonte dos valores está em [data-model.md](specs/001-landing-page-instituto/data-model.md).
 - **Contatos**: seção `#contato`, rodapé e botões de WhatsApp (procure por `wa.me/5514996816005`).
 - **Fotos**: gerar versões `.webp` e `.jpg` (480 px e até 960/1600 px) em `site/assets/img/`, sempre com `width`, `height` e `alt` descritivo; registrar a origem em `design-sources/README.md`.
-- **Estatísticas**: depois de criar a conta GoatCounter `institutoproativo`, descomentar o script no `<head>` do `index.html`.
+- **Estatísticas**: visitas e cliques nos contatos ficam em https://institutoproativo.goatcounter.com (sem cookies). Para contar cliques num link novo, adicione `data-goatcounter-click="nome-do-evento"`.
