@@ -21,9 +21,9 @@ Origens:
 |------|--------|-----|
 | `hero-aulao` | Drive `013.jpeg` | Fundo da abertura (aulão ao ar livre) |
 | `turma-lago` | Drive `005.jpeg` | Quem somos (foto da turma com professores) |
-| `escola-tatame` | PDF p06-x1774 | História |
+| `historia-professores` | Sensei Ismaile (WhatsApp) — `fotos-ismaile/professores-roda-criancas.jpg` | História |
 | `linhagem-seminario` | Joe `IMG_2952.HEIC` (recorte 4:3) | História — linhagem |
-| `roda-aula` | PDF p02-x52 | Desafio social |
+| `desafio-aulao` | Sensei Ismaile (WhatsApp) — `fotos-ismaile/aulao-tatame-fileiras.jpg` | Desafio social |
 | `aula-instrutores` | Drive `012.jpeg` (recorte 4:3) | O que fazemos |
 | `escola-criancas` | PDF p06-x1777 | O que fazemos |
 | `graduacao-faixa` | PDF p12-x1819 | Metodologia |
