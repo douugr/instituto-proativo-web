@@ -35,7 +35,7 @@ Origens:
 | `galeria-aluna` | Drive `IMG-20260413-WA0191.jpg.jpeg` (recorte 3:4) | Galeria |
 | `galeria-treino` | Drive `IMG_20260415_193447.jpg.jpeg` (recorte 4:3) | Galeria |
 | `sensei-ismaile` | Drive `004.jpeg` (sem a moldura branca, recorte 4:5) | Equipe — destaque do **Sensei Ismaile Santos** |
-| `equipe-voluntarios` | Drive `006.jpeg` | Rede de apoio |
+| `equipe-apoio` | Sensei Ismaile (WhatsApp) — `fotos-ismaile/equipe-apoio-bandeiras.webp` | Rede de apoio |
 | `aulao-comunidade` | Drive `015.jpeg` | Como apoiar |
 | `parceiro-veiculos` | Drive `019.jpeg` | Contrapartidas |
 | `grupo-lago` | Drive `IMG-20260415-WA0013.jpg.jpeg` | Fundo da citação |
