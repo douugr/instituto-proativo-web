@@ -20,10 +20,10 @@ Origens:
 | Nome | Origem | Uso |
 |------|--------|-----|
 | `hero-aulao` | Drive `013.jpeg` | Fundo da abertura (aulão ao ar livre) |
-| `turma-lago` | Drive `005.jpeg` | Quem somos (foto da turma com professores) |
-| `escola-tatame` | PDF p06-x1774 | História |
+| `turma-represa` | Drive `005.jpeg`, tratada para remover uma pessoa sem ligação com o instituto — `fotos-ismaile/turma-represa-tratada.jpg` | Quem somos (foto da turma com professores) |
+| `historia-professores` | Sensei Ismaile (WhatsApp) — `fotos-ismaile/professores-roda-criancas.jpg` | História |
 | `linhagem-seminario` | Joe `IMG_2952.HEIC` (recorte 4:3) | História — linhagem |
-| `roda-aula` | PDF p02-x52 | Desafio social |
+| `desafio-aulao` | Sensei Ismaile (WhatsApp) — `fotos-ismaile/aulao-tatame-fileiras.jpg` | Desafio social |
 | `aula-instrutores` | Drive `012.jpeg` (recorte 4:3) | O que fazemos |
 | `escola-criancas` | PDF p06-x1777 | O que fazemos |
 | `graduacao-faixa` | PDF p12-x1819 | Metodologia |
@@ -35,7 +35,7 @@ Origens:
 | `galeria-aluna` | Drive `IMG-20260413-WA0191.jpg.jpeg` (recorte 3:4) | Galeria |
 | `galeria-treino` | Drive `IMG_20260415_193447.jpg.jpeg` (recorte 4:3) | Galeria |
 | `sensei-ismaile` | Drive `004.jpeg` (sem a moldura branca, recorte 4:5) | Equipe — destaque do **Sensei Ismaile Santos** |
-| `equipe-voluntarios` | Drive `006.jpeg` | Rede de apoio |
+| `equipe-apoio` | Sensei Ismaile (WhatsApp) — `fotos-ismaile/equipe-apoio-bandeiras.webp` | Rede de apoio |
 | `aulao-comunidade` | Drive `015.jpeg` | Como apoiar |
 | `parceiro-veiculos` | Drive `019.jpeg` | Contrapartidas |
 | `grupo-lago` | Drive `IMG-20260415-WA0013.jpg.jpeg` | Fundo da citação |
