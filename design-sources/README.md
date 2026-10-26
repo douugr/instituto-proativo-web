@@ -20,7 +20,7 @@ Origens:
 | Nome | Origem | Uso |
 |------|--------|-----|
 | `hero-aulao` | Drive `013.jpeg` | Fundo da abertura (aulão ao ar livre) |
-| `turma-lago` | Drive `005.jpeg` | Quem somos (foto da turma com professores) |
+| `turma-represa` | Drive `005.jpeg`, tratada para remover uma pessoa sem ligação com o instituto — `fotos-ismaile/turma-represa-tratada.jpg` | Quem somos (foto da turma com professores) |
 | `historia-professores` | Sensei Ismaile (WhatsApp) — `fotos-ismaile/professores-roda-criancas.jpg` | História |
 | `linhagem-seminario` | Joe `IMG_2952.HEIC` (recorte 4:3) | História — linhagem |
 | `desafio-aulao` | Sensei Ismaile (WhatsApp) — `fotos-ismaile/aulao-tatame-fileiras.jpg` | Desafio social |
