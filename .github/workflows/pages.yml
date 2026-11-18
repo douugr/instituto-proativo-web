@@ -29,6 +29,9 @@ jobs:
       - name: Validar HTML
         run: npx --yes html-validate@9 "site/**/*.html"
 
+      - name: Conferir traduções (EN/ES acompanham o português)
+        run: python3 .github/scripts/check-i18n.py
+
       - name: Verificar links
         uses: lycheeverse/lychee-action@v2
         with:

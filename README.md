@@ -8,9 +8,11 @@ Página única em HTML + CSS + Bootstrap 5.3, sem etapa de build, hospedada no G
 
 ```text
 site/                 # tudo o que vai ao ar (raiz do GitHub Pages)
-  index.html          # a página, com todas as seções
+  index.html          # a página em português, com todas as seções
+  en/index.html       # versão em inglês
+  es/index.html       # versão em espanhol (América Latina)
   css/styles.css      # identidade visual (cores, fontes, componentes)
-  js/main.js          # ano no rodapé e fechamento do menu no celular
+  js/main.js          # ano no rodapé, fechamento do menu no celular e do seletor de idioma
   assets/brand/       # brasão, ícones, imagem de compartilhamento
   assets/img/         # fotos otimizadas (webp + jpg)
   404.html, CNAME, robots.txt, sitemap.xml, site.webmanifest
@@ -34,6 +36,10 @@ npx --yes html-validate@9 "site/**/*.html"
 ```
 
 ```bash
+python3 .github/scripts/check-i18n.py   # EN e ES acompanham o português
+```
+
+```bash
 lychee --config lychee.toml --root-dir "$PWD/site" "site/**/*.html"
 ```
 
@@ -48,7 +54,9 @@ Configuração inicial do GitHub Pages, do domínio no Registro.br e do HTTPS: v
 
 ## Atualizar conteúdo
 
-- **Textos**: editar `site/index.html`; cada seção começa com um comentário `<!-- ===== N. NOME ===== -->`.
+> **O site tem 3 idiomas.** Toda alteração em `site/index.html` precisa ser feita também em `site/en/index.html` e `site/es/index.html` (caminhos com `../`, eventos do GoatCounter com sufixo `-en`/`-es`). Regras, glossário e detalhes em [AGENTS.md](AGENTS.md).
+
+- **Textos**: editar `site/index.html` e as traduções em `site/en/` e `site/es/`; cada seção começa com um comentário `<!-- ===== N. NOME ===== -->`.
 - **Números de impacto**: blocos marcados com `<!-- NÚMEROS DE IMPACTO -->` (aparecem em *Quem somos* e em *Impacto*); a fonte dos valores está em [data-model.md](specs/001-landing-page-instituto/data-model.md).
 - **Contatos**: seção `#contato`, rodapé e botões de WhatsApp (procure por `wa.me/5514996816005`).
 - **Fotos**: gerar versões `.webp` e `.jpg` (480 px e até 960/1600 px) em `site/assets/img/`, sempre com `width`, `height` e `alt` descritivo; registrar a origem em `design-sources/README.md`.
