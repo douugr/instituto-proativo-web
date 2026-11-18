@@ -5,6 +5,20 @@ document.addEventListener("DOMContentLoaded", function () {
     el.textContent = String(new Date().getFullYear());
   });
 
+  // Fecha o seletor de idioma ao clicar fora dele ou apertar Esc
+  var idioma = document.querySelector(".lang-switch");
+  if (idioma) {
+    document.addEventListener("click", function (e) {
+      if (idioma.open && !idioma.contains(e.target)) idioma.open = false;
+    });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && idioma.open) {
+        idioma.open = false;
+        idioma.querySelector("summary").focus();
+      }
+    });
+  }
+
   // Fecha o menu móvel ao escolher uma seção
   var menu = document.getElementById("menu-principal");
   if (!menu || !window.bootstrap) return;
